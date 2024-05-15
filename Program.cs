@@ -20,4 +20,13 @@ app.MapGet("teams", () => teams);
 
 app.MapGet("teams/{id}", (int id) => teams.Find(team => team.Id == id));
 
+app.MapPost("teams", (CreateTeamDto newTeam) =>
+{
+    TeamDto team = new(
+        teams.Count + 1,
+        newTeam.Name,
+        newTeam.Division
+    );
+});
+
 app.Run();
