@@ -23,3 +23,4 @@
 /home/hanzo/northcoders/dotnet/HockeyLeague.Api/obj/Debug/net8.0/HockeyLeague.Api.pdb
 /home/hanzo/northcoders/dotnet/HockeyLeague.Api/obj/Debug/net8.0/HockeyLeague.Api.genruntimeconfig.cache
 /home/hanzo/northcoders/dotnet/HockeyLeague.Api/obj/Debug/net8.0/ref/HockeyLeague.Api.dll
+/home/hanzo/northcoders/dotnet/HockeyLeague.Api/obj/Debug/net8.0/HockeyLeague.Api.sourcelink.json

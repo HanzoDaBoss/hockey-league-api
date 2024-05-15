@@ -2,3 +2,12 @@ GET http://localhost:5068/teams
 
 ###
 GET http://localhost:5068/teams/1
+
+###
+POST http://localhost:5068/teams
+Content-Type: application/json
+
+{
+    "name": "Bedouins",
+    "division": 1
+}
