@@ -20,3 +20,5 @@ Content-Type: application/json
     "name": "Leicester Foxes",
     "division": 2
 }
+
+DELETE http://localhost:5068/teams/2

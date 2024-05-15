@@ -53,4 +53,11 @@ app.MapPut("teams/{id}", (int id, UpdateTeamDto updatedTeam) =>
     return Results.NoContent();
 });
 
+app.MapDelete("teams/{id}", (int id) =>
+{
+    teams.RemoveAll(team => team.Id == id);
+
+    return Results.NoContent();
+});
+
 app.Run();
