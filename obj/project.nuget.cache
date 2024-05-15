@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "TrRFXKV+iiuKnh7FWjvklGVuodeYdGDx8CK6lCTFt3poq4jjoVwxWhmyGuD/VgEoubDLcyVRbe5R8suYdLOzrA==",
+  "dgSpecHash": "7rMRQRb/HMI3aKG1Ewyzgg6QRYL6izJcaxJdS2q8P33st9anIRLp8jaUZ6YD/jgMNTEL7gtO9Ew1pFTjJrlmTQ==",
   "success": true,
   "projectFilePath": "/home/hanzo/northcoders/dotnet/HockeyLeague.Api/HockeyLeague.Api.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/home/hanzo/.nuget/packages/microsoft.openapi/1.4.3/microsoft.openapi.1.4.3.nupkg.sha512",
+    "/home/hanzo/.nuget/packages/minimalapis.extensions/0.11.0/minimalapis.extensions.0.11.0.nupkg.sha512",
+    "/home/hanzo/.nuget/packages/minivalidation/0.8.0/minivalidation.0.8.0.nupkg.sha512"
+  ],
   "logs": []
 }

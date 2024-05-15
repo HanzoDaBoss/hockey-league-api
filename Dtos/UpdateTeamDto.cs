@@ -1,6 +1,9 @@
-﻿namespace HockeyLeague.Api.Dtos;
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace HockeyLeague.Api.Dtos;
 
 public record class UpdateTeamDto
 (
-    string Name, int Division
+    [Required][StringLength(50)] string Name,
+    [Required][Range(1, 3)] int Division
 );
