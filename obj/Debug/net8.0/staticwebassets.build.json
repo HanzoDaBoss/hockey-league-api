@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "36sCpgbYq3cwC//mF5QojfAYhr5kL9zz4DjBcXi4Ny4=",
+  "Source": "HockeyLeague.Api",
+  "BasePath": "_content/HockeyLeague.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
