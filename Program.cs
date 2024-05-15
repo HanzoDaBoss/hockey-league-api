@@ -17,7 +17,7 @@ List<TeamDto> teams = [
         1
     ),
         new (
-        2,
+        3,
         "Welford",
         2
     )
@@ -38,6 +38,19 @@ app.MapPost("teams", (CreateTeamDto newTeam) =>
     teams.Add(team);
 
     return Results.CreatedAtRoute(GetTeamEndpointName, new { id = team.Id }, team);
+});
+
+app.MapPut("teams/{id}", (int id, UpdateTeamDto updatedTeam) =>
+{
+    var index = teams.FindIndex(team => team.Id == id);
+
+    teams[index] = new TeamDto(
+        id,
+        updatedTeam.Name,
+        updatedTeam.Division
+    );
+
+    return Results.NoContent();
 });
 
 app.Run();
